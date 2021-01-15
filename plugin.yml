@@ -1,0 +1,17 @@
+name: StaffTeam
+main: callum\staffteam\staff
+version: 1.35
+api: 4.0.0
+author: callum
+
+commands:
+    staffteam:
+        description: "view staff team"
+        usage: "/staffteam <list|info|help>"
+        permission: staffteam
+        
+permissions:
+    staffteam:
+        description: "/staffteam"
+        default: true
+        
